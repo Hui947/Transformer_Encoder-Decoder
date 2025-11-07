@@ -1,0 +1,1 @@
+python src/train.py --d_model 768 --n_heads 12 --d_ff 1536 --enc_layers 8 --dec_layers 8 --attention_type dense --pos_encoding absolute --epochs 3 --batch_size 64 --out_dir "./results/large_model"

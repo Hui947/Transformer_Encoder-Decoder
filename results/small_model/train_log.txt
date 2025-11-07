@@ -1,0 +1,22 @@
+
+===== New Run at 2025-11-06 00:53:18 =====
+Device: cuda
+Args: {'epochs': 3, 'lr': 1.0, 'weight_decay': 0.01, 'grad_accum': 1, 'max_grad_norm': 1.0, 'amp': False, 'seed': 42, 'batch_size': 64, 'max_source_length': None, 'max_target_length': None, 'eval_every': 1, 'max_new_tokens': 64, 'd_model': 256, 'n_heads': 4, 'd_ff': 512, 'enc_layers': 4, 'dec_layers': 4, 'dropout': 0.1, 'attention_type': 'dense', 'sparse_window': 64, 'pos_encoding': 'absolute', 'max_seq_len': 256, 'tie_embeddings': False, 'out_dir': './outputs/small_model', 'log_file': 'train_log.txt', 'ckpt_name': 'last.ckpt', 'resume': False}
+Tokenizer: t5-small | V=32100
+Dataloader: train=206112 val=888 test=8079
+Model params: 29.96M
+[Train] Epoch 1 | Loss 5.7391
+[Eval] BLEU-4 = 6.03
+[Eval] BLEU-4 = 5.90
+[Checkpoint] New best BLEU 5.90 saved to best.ckpt
+[Train] Epoch 2 | Loss 3.9444
+[Eval] BLEU-4 = 9.37
+[Eval] BLEU-4 = 8.56
+[Checkpoint] New best BLEU 8.56 saved to best.ckpt
+[Train] Epoch 3 | Loss 3.4568
+[Eval] BLEU-4 = 11.08
+[Eval] BLEU-4 = 10.08
+[Checkpoint] New best BLEU 10.08 saved to best.ckpt
+[Eval] BLEU-4 = 10.08
+[Final] Test BLEU-4 = 10.08
+Done.

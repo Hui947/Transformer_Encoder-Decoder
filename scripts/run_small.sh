@@ -1,0 +1,1 @@
+python src/train.py --d_model 256 --n_heads 4 --d_ff 512 --enc_layers 4 --dec_layers 4 --attention_type dense --pos_encoding absolute --epochs 3 --batch_size 64 --out_dir "./results/small_model"

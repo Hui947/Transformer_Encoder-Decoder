@@ -1,0 +1,7 @@
+
+===== New Run at 2025-11-05 18:04:57 =====
+Device: cuda
+Args: {'epochs': 3, 'lr': 1.0, 'weight_decay': 0.01, 'grad_accum': 1, 'max_grad_norm': 1.0, 'amp': False, 'seed': 42, 'batch_size': 64, 'max_source_length': None, 'max_target_length': None, 'eval_every': 1, 'max_new_tokens': 64, 'd_model': 512, 'n_heads': 8, 'd_ff': 1024, 'enc_layers': 6, 'dec_layers': 6, 'dropout': 0.1, 'attention_type': 'dense', 'sparse_window': 64, 'pos_encoding': 'relative', 'max_seq_len': 256, 'tie_embeddings': False, 'out_dir': './outputs/base_model', 'log_file': 'train_log.txt', 'ckpt_name': 'last.ckpt', 'resume': False}
+Tokenizer: t5-small | V=32100
+Dataloader: train=206112 val=888 test=8079
+Model params: 80.91M
