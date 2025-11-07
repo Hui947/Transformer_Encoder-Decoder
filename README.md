@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ### Prepare Datasets
 Download the datasets [IWSLT-2017](https://huggingface.co/datasets/IWSLT/iwslt2017/tree/main)
 
-Then unzip them and rename them under the directory like follow:
+Then rename them under the directory like follow:
 
 ```
 data
