@@ -26,12 +26,13 @@ data
 
 ## Training
 We utilize 1 GPU for training with 32G of memory.
-# Random Seed.
-Use `args.seed=42` by default
 
 # Scripts.
 Command input paradigm
 `bash scripts/run_base.sh`
+
+# Random Seed.
+Use `args.seed=42` by default
 
 ## Evaluation
 Command input paradigm
