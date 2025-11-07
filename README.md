@@ -29,5 +29,8 @@ We utilize 1 GPU for training with 32G of memory.
 
 # Scripts.
 Command input paradigm
+`bash scripts/run_base.sh`
 
 ## Evaluation
+Command input paradigm
+`bash scripts/eval.sh`
